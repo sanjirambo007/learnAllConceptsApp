@@ -15,6 +15,7 @@
 		026D9E4922148933006F8739 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 026D9E4722148933006F8739 /* LaunchScreen.storyboard */; };
 		026D9E5422148935006F8739 /* learnAllConceptsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026D9E5322148935006F8739 /* learnAllConceptsAppTests.swift */; };
 		026D9E5F22148935006F8739 /* learnAllConceptsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026D9E5E22148935006F8739 /* learnAllConceptsAppUITests.swift */; };
+		026D9E6D22148E71006F8739 /* AlertViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026D9E6C22148E71006F8739 /* AlertViewer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		026D9E5A22148935006F8739 /* learnAllConceptsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = learnAllConceptsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		026D9E5E22148935006F8739 /* learnAllConceptsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = learnAllConceptsAppUITests.swift; sourceTree = "<group>"; };
 		026D9E6022148935006F8739 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		026D9E6C22148E71006F8739 /* AlertViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				026D9E3B221488E2006F8739 /* AppDelegate.swift */,
 				026D9E3D221488E2006F8739 /* ViewController.swift */,
+				026D9E6C22148E71006F8739 /* AlertViewer.swift */,
 				026D9E3F221488E3006F8739 /* Main.storyboard */,
 				026D9E4522148933006F8739 /* Assets.xcassets */,
 				026D9E4722148933006F8739 /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				026D9E44221488E3006F8739 /* learnAllConceptsApp.xcdatamodeld in Sources */,
 				026D9E3E221488E2006F8739 /* ViewController.swift in Sources */,
+				026D9E6D22148E71006F8739 /* AlertViewer.swift in Sources */,
 				026D9E3C221488E2006F8739 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -439,6 +443,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UN6P2X6LR3;
 				INFOPLIST_FILE = learnAllConceptsApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -457,6 +462,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UN6P2X6LR3;
 				INFOPLIST_FILE = learnAllConceptsApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
